@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js",
+    "s1": "serve -l 8085 server1",
+    "s2": "serve -l 8086 server2"
+  },
   "dependencies": {
     "express": "^4.17.1",
-    "express-http-proxy": "^1.6.2"
+    "express-http-proxy": "^1.6.2",
+    "serve": "^14.2.4"
   }
 }
