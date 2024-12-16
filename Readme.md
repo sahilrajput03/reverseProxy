@@ -1,3 +1,9 @@
+# Readme
+
+This project demonstrates reverse proxy with the help of `express-http-proxy` (npm library).
+- Github: https://github.com/villadora/express-http-proxy
+- NPM: https://www.npmjs.com/package/express-http-proxy
+
 You can start this project by:
 
 ```bash
